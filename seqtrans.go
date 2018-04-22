@@ -16,7 +16,7 @@ func main() {
      defer newFile.Close()
 
      // HTTP GET request devdungeon.com 
-     url := "http://boldsystems.org/index.php/API_Public/sequence?taxon=Chordata&geo=Florida&institutions=Smithsonian%20Institution"
+     url := "http://boldsystems.org/index.php/API_Public/sequence?bin=BOLD:ACV7374"
      response, err := http.Get(url)
      defer response.Body.Close()
 

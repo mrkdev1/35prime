@@ -18,3 +18,5 @@ Output file is named: fasta.fas
 source code is named seqtrans.go
 package is 35prime
 exe is 35prime.exe
+
+url := "http://boldsystems.org/index.php/API_Public/sequence?bin=BOLD:ACV7374"
