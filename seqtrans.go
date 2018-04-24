@@ -27,7 +27,7 @@ func main() {
 	countt := 0
 	length := 0
 
-	for i := 1; i < len(lines); i++ {
+	for i := (len(lines) - 1); i > 0 ; i-- {
 	   counta = counta + strings.Count(lines[i], "A")
 	   countg = countg + strings.Count(lines[i], "G")
 	   countc = countc + strings.Count(lines[i], "C")
