@@ -18,23 +18,18 @@ func main() {
         log.Fatal(err)
     }
     lines := strings.Split(string(content), "\n")
-
-	fmt.Println(lines[0])
-	fmt.Println(lines[1])
-	fmt.Println(lines[2])	
 	
-	j := 0
-	rlines := lines
+	seq := ""
 	
-	for i := (len(lines) - 1); i > 0 ; i-- {
-	   j = j + 1	
-	   rlines[j] = stringutil.Reverse(lines[i])	
-	}
+	for i := 1; i < (len(lines)-1); i++ {
+	   seq = seq + lines[i]
+    }
+	
+	fmt.Println(lines[0] + "\n" + seq)
 
-
-	fmt.Println(rlines[0])
-	fmt.Println(rlines[1])	
-	fmt.Println(rlines[2])	
-	fmt.Println(rlines[3])	
+    sr := stringutil.Reverse(seq)
+	
+	fmt.Println(lines[0] + " (reversed)\n" + sr)	
 	
 }
+
