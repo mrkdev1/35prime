@@ -25,7 +25,7 @@ func main() {
 	   s = s + lines[i]
     }
 	
-	fmt.Println(lines[0] + "\n" + s)
+	fmt.Println(lines[0] + " (input)\n" + s)
 
     sr := stringutil.Reverse(s)
 	
