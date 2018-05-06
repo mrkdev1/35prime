@@ -32,7 +32,7 @@ The following command computes the proportions for the sequence provided as a FA
 
 ## `out.md` 
 
-On success, **35prime** will display the result in the console and create a text file named `out.md` inside the same directory as `chargaff.exe`. Results get written into `out.md` in multiple sections in FASTA format. The first line of each section indicates whether the section refers to the *input*, *complement*, *reversed*, or *complement reversed* sequence.
+On success, **35prime** will display the result in the console and create a text file named `out.md` inside the same directory as `35prime.exe`. Results get written into `out.md` in multiple sections in FASTA format. The first line of each section indicates whether the section refers to the *input*, *complement*, *reversed*, or *complement reversed* sequence.
 
 
 
